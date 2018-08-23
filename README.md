@@ -24,18 +24,18 @@ DATABASES = {
         'HOST': 'localhost',#数据库主机地址
         'NAME': 'mis',#数据库名称
         'USER': 'root',#数据库用户名（建议不要加入root敢死队）
-        'PASSWORD': 'root',#数据库密码
+        'PASSWORD': '123456',#数据库密码
     }
 }
 ```
 
 
 ## 克隆代码
-> git clone https://github.com/bg4hkq/Django-ERP.git
+> git clone https://github.com/hzh0292/Django-ERP.git
 
 
 ## 导入数据库
-> mysql -uroot -proot mis < Install/mis.sql
+> mysql -uroot -p123456 mis < Install/mis.sql
 
 ## 运行测试服务器
 > python manage.py runserver
