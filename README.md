@@ -38,7 +38,7 @@ DATABASES = {
 > mysql -uroot -p123456 mis < Install/mis.sql
 
 ## 运行测试服务器
-> python manage.py runserver
+> python manage.py runserver 0.0.0.0:8000
 
 ## 修改管理员账户密码
 ```
